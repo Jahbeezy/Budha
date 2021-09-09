@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./quiz.js"></script>
+    <title>Budha</title>
+</head>
+<body>
+    <section class="game-box">
+        <div id="qbox" class="hide">
+            <div id="timer">Time Left: </div>
+            <div id="score"> Score: </div>
+            <div id="Qs" class="Qs">Question</div>
+            <div id="answerButt" class="buttGrid">
+                <button class="butt">A</button>
+                <button class="butt">B</button>
+                <button class="butt">C</button>
+                <button class="butt">D</button>
+            </div>
+        </div>
+        <div id="ender" class="endScreen hide">
+            <div class="player-display" id="player-score">
+
+            </div>
+            <input type="text" id="highscore">
+                <ul id="scoreDis">
+                    
+                </ul>
+            
+            <button id="submit" class="butt">SUBMIT</button>
+            <button id="restart" class="butt">Restart</button>
+        </div>
+        <div class="controlla">
+            <button id="starter" class="starter butt">Start</button>
+            <button id="next" class="next butt hide">Next</button>
+        </div>
+    </section>
+</body>
+</html>
