@@ -205,6 +205,8 @@ function createList() {
     
 }
 
+
+//this creates a list for the scoreboard upon the submit button being
 function showScores() {
     var sb = JSON.parse(localStorage.getItem("SCORE"));
     if(sb !== null) {
@@ -218,7 +220,7 @@ function showScores() {
     }
 }
 
-
+//questions organized into an array
 var smartQs = [
     {
         question: "What does HTML stand for?",
@@ -322,16 +324,3 @@ var smartQs = [
      }
 ]
 
-// var smartQs = [
-//     {
-//         question: "What does HTML stand for?",
-//         answers: [
-//             { text:'Hypertext Markup Language', correct: true },
-//             { text:'Hyperlink Type Multi Language', correct: false },
-//             { text:'Hypertext Multi Language', correct: false },
-//             { text:'Hyperlink Markup Language', correct: false },
-//         ]
-
-//     },
-
-// ]
